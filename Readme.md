@@ -82,32 +82,5 @@ This project is trained on the **India Food Delivery Time Prediction** dataset a
 
 Special thanks to the dataset creator for making the data publicly available.
 
-## 📁 Project Structure
-
-DEVTA/
-│
-├── backend/
-│   ├── main.py
-│   ├── preprocess.py
-│   ├── reasons.py
-│   └── schema.py
-│
-├── frontend/
-│   └── app.py
-│
-├── model/
-│   ├── model.pkl
-│   ├── feature_columns.pkl
-│   └── best_parameters.pkl
-│
-├── notebook/
-│   └── training.ipynb
-│
-├── data/
-│
-├── requirements.txt
-│
-└── README.md
-
 
 ## 📸 Screenshots
