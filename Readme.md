@@ -4,6 +4,9 @@
 ## 📖 Overview
 Devta is an end-to-end machine learning application that estimates food delivery time based on order, traffic, weather, and delivery-related information. The project combines an XGBoost regression model with a FastAPI backend and an interactive Streamlit frontend to provide accurate delivery time predictions, an expected prediction range based on the model's RMSE, and simple explanations for the generated estimate.
 
+
+## Try it her -
+
 ## ✨ Features
 
 - 🚚 Predicts food delivery time in minutes.
