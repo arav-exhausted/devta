@@ -16,7 +16,7 @@ model = joblib.load("../model/model.pkl")
 @app.get("/")
 def root():
     return{
-        "Mesasge":"Delivery time prediction model is ready!"
+        "Message":"Delivery time prediction model is ready!"
     }
 
 
