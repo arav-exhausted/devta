@@ -37,5 +37,8 @@ def reasons_for_too_much_late(data:dict) -> list[str]:
 
     
     reasons.sort(key=lambda x: x[0], reverse=True)
-
+    if not reasons:
+        reasons.append(
+            (0,"No major factors have affected your order this estimate is based on normal delivery conditions")
+        )
     return [reason for _, reason in reasons[:2]]
