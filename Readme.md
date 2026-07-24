@@ -5,7 +5,7 @@
 Devta is an end-to-end machine learning application that estimates food delivery time based on order, traffic, weather, and delivery-related information. The project combines an XGBoost regression model with a FastAPI backend and an interactive Streamlit frontend to provide accurate delivery time predictions, an expected prediction range based on the model's RMSE, and simple explanations for the generated estimate.
 
 
-## Try it her -
+## Try it here -
 
 ## ✨ Features
 
@@ -79,9 +79,8 @@ Expected Time = Prediction ± RMSE
 ## 📂 Dataset
 This project is trained on the **India Food Delivery Time Prediction** dataset available on Kaggle.
 
-- **Dataset:** India Food Delivery Time Prediction
+- - **Dataset:** [India Food Delivery Time Prediction](https://www.kaggle.com/datasets/changlechangsu/india-food-delivery-time-prediction)
 - **Source:** Kaggle
-- **Link:** https://www.kaggle.com/datasets/changlechangsu/india-food-delivery-time-prediction
 
 Special thanks to the dataset creator for making the data publicly available.
 
