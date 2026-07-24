@@ -2,7 +2,7 @@ import joblib
 import pandas as pd
 
 
-feature_columns = joblib.load("../model/feature_columns.pkl")
+feature_columns = joblib.load("model/feature_columns.pkl")
 
 
 def preprocess(data: dict):

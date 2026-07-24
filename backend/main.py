@@ -11,7 +11,7 @@ app = FastAPI()
 
 
 
-model = joblib.load("../model/model.pkl")
+model = joblib.load("model/model.pkl")
 
 @app.get("/")
 def root():
