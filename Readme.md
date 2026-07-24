@@ -9,10 +9,15 @@
 ![img3](assets/img3.png)
 
 
-## Try it here -
+## 🌐 Live Demo
+
+#### 🚀 Try the application here:
+
+[Devta: The food delivery time prediction app](https://devtaapp.onrender.com/)
 
 
 ## 📖 Overview
+
 Devta is an end-to-end machine learning application that estimates food delivery time based on order, traffic, weather, and delivery-related information. The project combines an XGBoost regression model with a FastAPI backend and an interactive Streamlit frontend to provide accurate delivery time predictions, an expected prediction range based on the model's RMSE, and simple explanations for the generated estimate.
 
 
@@ -30,21 +35,25 @@ Devta is an end-to-end machine learning application that estimates food delivery
 
 
 ## 🛠️ Tech Stack
+
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B)
 ![XGBoost](https://img.shields.io/badge/XGBoost-Regression-orange)
 
 ### Frontend
+
 - Streamlit
 
 ### Machine Learning
+
 - XGBoost
 - Scikit-Learn
 - Pandas
 - Numpy
 
 ### Backend
+
 - FastAPI
 - Joblib
 - Pydantic
@@ -52,6 +61,8 @@ Devta is an end-to-end machine learning application that estimates food delivery
 
 
 ### Deployment  
+
+- Deployed both frontend and backend on Render
 
 
 
@@ -94,7 +105,7 @@ Expected Time = Prediction ± RMSE
 ## 📂 Dataset
 This project is trained on the **India Food Delivery Time Prediction** dataset available on Kaggle.
 
-- - **Dataset:** [India Food Delivery Time Prediction](https://www.kaggle.com/datasets/changlechangsu/india-food-delivery-time-prediction)
+- **Dataset:** [India Food Delivery Time Prediction](https://www.kaggle.com/datasets/changlechangsu/india-food-delivery-time-prediction)
 - **Source:** Kaggle
 
 Special thanks to the dataset creator for making the data publicly available.
