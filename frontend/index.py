@@ -218,7 +218,7 @@ with st.form("delivery form"):
         }
 
         response = requests.post(
-            "http://127.0.0.1:8000/predict",
+            "https://devta-backend.onrender.com/predict",
             json = data
         )
 
